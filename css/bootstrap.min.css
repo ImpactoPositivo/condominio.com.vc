@@ -1357,12 +1357,6 @@ pre code {
         max-width: 25%
     }
 
-    .col-lg-3a {
-        -ms-flex: 0 0 33%;
-        flex: 0 0 33%;
-        max-width: 33%
-    }
-
     .col-lg-4 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
@@ -1373,6 +1367,13 @@ pre code {
         flex: 0 0 41.666667%;
         max-width: 41.666667%
     }
+
+    .col-lg-5a {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
     .col-lg-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
@@ -8540,8 +8541,8 @@ a.bg-dark:hover {
     text-transform: uppercase!important
 }
 
-.text-capitalize {
-    text-transform: capitalize!important
+.text-none {
+    text-transform: none!important
 }
 
 .font-weight-light {

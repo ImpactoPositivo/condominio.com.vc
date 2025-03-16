@@ -96,7 +96,7 @@ body{
 	float: left;
 	font-size: 13px;
 	width: 100%;
-	text-transform: capitalize;
+	text-transform: none;
 }
 .pro-features li {
 	color: #333;
@@ -316,7 +316,7 @@ body{
 	color: #2C2D3F;
 	font-size: 14px;
 	font-weight: 500;
-	text-transform: capitalize;
+	text-transform: none;
 	padding: 25px 12px;
 	position: relative;
 	display: inline-block;
@@ -408,7 +408,7 @@ body{
 }
 .header .single-widget p {
 	margin-bottom: 5px;
-	text-transform: capitalize;
+	text-transform: none;
 }
 .header .single-widget.btn{
 	margin-left:0;
@@ -452,7 +452,7 @@ body{
 	color: #666;
 	display: block;
 	font-weight: 400;
-	text-transform: capitalize;
+	text-transform: none;
 	background: transparent;
 	-webkit-transition:all 0.2s ease;
 	-moz-transition:all 0.2s ease;
@@ -751,7 +751,7 @@ body{
 	font-size: 20px;
 	font-weight:600;
 	display:inline-block;
-	text-transform:capitalize;
+	text-transform:none;
 	color:#fff;
 	margin-top:13px;
 }
@@ -1312,7 +1312,7 @@ body{
 	transition:all 0.4s ease;
 }
 .services .single-service h4{
-	text-transform:capitalize;
+	text-transform:none;
 	margin-bottom:25px;
 	color:#2C2D3F;
 }
@@ -1648,7 +1648,7 @@ body{
 .pricing-table .table-list li {
 	position: relative;
 	color: #666;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 18px;
 	padding-right: 32px;
 }
@@ -1827,7 +1827,7 @@ body{
 }
 .team .t-bottom h2 {
 	font-size: 18px;
-	text-transform: capitalize;
+	text-transform: none;
 	font-weight: 500;
 	color: #2C2D3F;
 }
@@ -2048,7 +2048,7 @@ body{
 }
 .blog .single-news .news-content p {
 	font-weight: 400;
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 13px;
 	letter-spacing: 0px;
 	line-height: 23px;
@@ -2086,7 +2086,7 @@ body{
 	position: relative;
 	font-size: 18px;
 	font-weight: 600;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 30px;
 	display: block;
 	background: #fff;
@@ -2245,7 +2245,7 @@ body{
 	background: #fff;
 	color: #333;
 	padding: 8px 14px;
-	text-transform: capitalize;
+	text-transform: none;
 	border-radius: 0;
 	font-size: 13px;
 	background: #F6F7FB;
@@ -2452,7 +2452,7 @@ body{
 }
 .news-single .blog-comments h2 {
 	text-align: left;
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 18px;
 	color: #252525;
 	margin-bottom: 20px;
@@ -2548,7 +2548,7 @@ body{
 	font-size: 13px;
 }
 .news-single .single-comments a {
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 13px;
 	font-weight: 400;
 	color: #333;
@@ -2593,7 +2593,7 @@ body{
 	font-size: 18px;
 	color: #353535;
 	margin-bottom: 20px;
-	text-transform: capitalize;
+	text-transform: none;
 }
 .news-single .form {
 }
@@ -2732,7 +2732,7 @@ body{
 	width: 100%;
 	height: 50px;
 	border: 1px solid #eee;
-	text-transform: capitalize;
+	text-transform: none;
 	padding: 0px 18px;
 	color: #555;
 	font-size: 14px;
@@ -2745,7 +2745,7 @@ body{
 	height:200px;
     padding: 18px;
 	border:1px solid #eee;
-	text-transform:capitalize;
+	text-transform:none;
 	resize:none;
 	border-radius: 4px;
 }
@@ -2754,7 +2754,7 @@ body{
 	height: 50px;
 	line-height: 50px;
 	border: 1px solid #eee;
-	text-transform: capitalize;
+	text-transform: none;
 	padding: 0px 18px;
 	color: #999;
 	font-size: 14px;
@@ -2779,7 +2779,7 @@ body{
 }
 .appointment .form-group .list li:hover {
 	color:#fff;
-	background: #1A76D1;
+	background: #f0ac00;
 }
 .appointment .appointment-image{}
 .appointment.single-page .button .btn{
@@ -2796,8 +2796,8 @@ body{
 	color:#868686;
 }
 .appointment.single-page .work-hour{
-	background:#1A76D1;
-	padding: 40px;
+	background:#C8C8C8;
+	padding: 10px;
 	box-shadow: 0px 0px 10px #00000024;
 	border-radius: 5px;
 }
@@ -2805,9 +2805,30 @@ body{
 	font-size: 25px;
 	display: block;
 	font-weight:600;
-	margin-bottom: 20px;
-	color:#fff;
+	margin: 20px 0px;
+	color:#333;
+	text-align: center;
 }
+
+.appointment.single-page .com-hour{
+	table-layout: auto;
+	width: 100%;
+	font-size: .8rem;
+	color: #333;
+	text-align: center;
+	padding: 10px;
+}
+
+.appointment.single-page .com-hour .cinza{
+	background-color: #888;
+	color: #fff;
+}
+
+
+.appointment.single-page .com-hour th,td{
+	padding: 15px 5px;
+}
+
 .appointment.single-page .time-sidual{
 	margin-top:15px;
 }
@@ -2857,7 +2878,7 @@ body{
 	color: #333;
 	font-weight: 600;
 	line-height: 27px;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 12px;
 	padding-bottom: 20px;
 	text-align: left;
@@ -2896,7 +2917,7 @@ body{
 	width: 100%;
 	height: 50px;
 	border: 1px solid #eee;
-	text-transform: capitalize;
+	text-transform: none;
 	padding: 0px 18px;
 	color: #555;
 	font-size: 14px;
@@ -3012,7 +3033,7 @@ body{
 	color: #333;
 	font-weight: 600;
 	line-height: 27px;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 12px;
 	padding-bottom: 20px;
 	text-align: left;
@@ -3051,7 +3072,7 @@ body{
 	width: 100%;
 	height: 50px;
 	border: 1px solid #eee;
-	text-transform: capitalize;
+	text-transform: none;
 	padding: 0px 18px;
 	color: #555;
 	font-size: 14px;
@@ -3239,7 +3260,7 @@ body{
 	color: #333;
 	font-weight: 600;
 	line-height: 27px;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 12px;
 	padding-bottom: 20px;
 	text-align: left;
@@ -3270,7 +3291,7 @@ body{
 	width: 100%;
 	height: 50px;
 	border: 1px solid #eee;
-	text-transform: capitalize;
+	text-transform: none;
 	padding: 0px 18px;
 	color: #555;
 	font-size: 14px;
@@ -3281,7 +3302,7 @@ body{
 	width: 100%;
 	height:100px;
 	border: 1px solid #eee;
-	text-transform: capitalize;
+	text-transform: none;
 	padding:18px;
 	color: #555;
 	font-size: 14px;
@@ -4018,7 +4039,7 @@ body{
 .footer .single-footer.f-link li a {
 	display: block;
 	color: #333;
-	text-transform: capitalize;
+	text-transform: none;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -4031,10 +4052,10 @@ body{
 	color:#333;
 	font-size:20px;
 	font-weight:600;
-	text-transform:capitalize;
+	text-transform:none;
 	margin-bottom:20px;
 	padding-bottom:10px;
-	text-transform:capitalize;
+	text-transform:none;
 	position:relative;
 }
 .footer .single-footer h2::before{
