@@ -9,7 +9,7 @@ Version:	1.1
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 /* Header Sticky */
 .section{
-	padding:70px 0px;
+	padding:20px 0px;
 }
 .section-title {
 	margin-bottom: 35px;
@@ -318,7 +318,7 @@ Version:	1.1
 .our-mission-image {
 	height: 400px;
 }
-.doctor-details-area .cond-details-right {
+.cond-details-area .cond-details-right {
 	padding-left: 0;
 	padding-top: 40px;
 }
@@ -906,7 +906,7 @@ Version:	1.1
 .contact-us .contact-us-form {
 	padding: 30px 30px;
 }
-.doctor-details-area .cond-details-right {
+.cond-details-area .cond-details-right {
 	padding-left: 0;
 	padding-top: 30px;
 }
@@ -928,7 +928,7 @@ Version:	1.1
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-.doctor-details-area .cond-details-left .social li {
+.cond-details-area .cond-details-left .social li {
 	display: inline-block;
 	margin-right: 5px;
 }
