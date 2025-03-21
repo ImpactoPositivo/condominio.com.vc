@@ -139,6 +139,10 @@ body {
     background-color: #fff
 }
 
+body .header-inner .container .inner .row .col-lg-3 .logo{
+    text-align: center
+}
+
 [tabindex="-1"]:focus {
     outline: 0!important
 }
