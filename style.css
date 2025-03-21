@@ -1841,24 +1841,29 @@ body{
 	border-radius: 10px;
 	overflow: hidden;
 }
-.doctor-details-item img {
+.cond-details img {
   width: 100%;
   border-radius:0;
 }
-.doctor-details-item .doctor-details-contact {
-	padding: 50px;
+.cond-details .cond-details-pic {
+	padding: 20px 50px;
 }
-.doctor-details-item .doctor-details-contact h3 {
+.cond-details .cond-details-pic h3 {
 	font-weight: 600;
 	font-size: 20px;
 	color: #2C2D3F;
 	margin-bottom: 30px;
 }
-.doctor-details-item .doctor-details-contact .basic-info {
+
+.cond-details .cond-details-pic img{
+	padding: 10px 5px;
+}
+
+.cond-details .cond-details-pic .basic-info {
   margin: 0;
   padding: 0;
 }
-.doctor-details-item .doctor-details-contact .basic-info li {
+.cond-details .cond-details-pic .basic-info li {
 	list-style-type: none;
 	display: block;
 	font-weight: 400;
@@ -1866,10 +1871,10 @@ body{
 	color: #2C2D3F;
 	margin-bottom: 10px;
 }
-.doctor-details-item .doctor-details-contact .basic-info li:last-child {
+.cond-details .cond-details-pic .basic-info li:last-child {
   margin-bottom: 0;
 }
-.doctor-details-item .doctor-details-contact .basic-info li i {
+.cond-details .cond-details-pic .basic-info li i {
 	display: inline-block;
 	color: #1A76D1;
 	margin-right: 8px;
@@ -1905,71 +1910,72 @@ body{
 	background:#1A76D1;
 	border-color:transparent;
 }
-.doctor-details-item .doctor-details-work h3 {
+.cond-details .doctor-details-work h3 {
 	font-weight: 600;
 	font-size: 20px;
 	color: #2C2D3F;
 	margin-top: 30px;
 }
-.doctor-details-item .doctor-details-work .time-sidual{
+.cond-details .doctor-details-work .time-sidual{
 	
 }
-.doctor-details-item .doctor-details-work .time-sidual{
+.cond-details .doctor-details-work .time-sidual{
 	overflow:hidden;
 }
-.doctor-details-item .doctor-details-work .time-sidual li {
+.cond-details .doctor-details-work .time-sidual li {
 	display: block;
 	color: #2C2D3F;
 	width: 100%;
 	margin-bottom: 10px;
 }
-.doctor-details-item .doctor-details-work .time-sidual li span{
+.cond-details .doctor-details-work .time-sidual li span{
 	display:inline-block;
 	float:right;
 }
-.doctor-details-item .doctor-details-work .day-head .time {
+.cond-details .doctor-details-work .day-head .time {
 	font-weight: 400;
 	float: right;
 }
 
-.doctor-details-area .doctor-details-right{
+.doctor-details-area .cond-details-right{
 	padding-left: 60px;
-	padding-top: 70px;
+	padding-top: 10px;
 }
-.doctor-details-item .doctor-details-biography {
+
+.cond-details .cond-details-itens {
  
 }
-.doctor-details-item .doctor-details-biography h3 {
+.cond-details .cond-details-itens h3 {
   font-weight: 600;
   font-size: 24px;
-  color: #2f60bd;
+  color: #f0ac00;
   margin-bottom: 25px;
   margin-top: 25px;
 }
-.doctor-details-item .doctor-details-biography p {
+.cond-details .cond-details-itens p {
   margin-bottom: 0;
 }
-.doctor-details-item .doctor-details-biography ul {
+.cond-details .cond-details-itens ul {
   margin: 0;
   padding: 0;
 }
-.doctor-details-item .doctor-details-biography ul li {
+.cond-details .cond-details-itens ul li {
   list-style-type: none;
   display: block;
   margin-bottom: 10px;
 }
-.doctor-details-item .doctor-details-biography ul li:last-child {
+.cond-details .cond-details-itens ul li:last-child {
   margin-bottom: 0;
 }
-.doctor-details-item .doctor-name .name{
+.cond-details .sistema-name .name{
 	font-size:30px;
 	font-weight:600;
 }
-.doctor-details-item .doctor-name .deg {
+.cond-details .sistema-name .deg {
 	font-size: 22px;
 	margin: 10px 0 5px 0;
 }
-.doctor-details-item .doctor-name .degree{
+.cond-details .sistema-name .degree{
 	font-size: 16px;
 }
 /*====================
