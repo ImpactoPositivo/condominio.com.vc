@@ -1834,8 +1834,14 @@ body{
 .team .t-bottom h2 a:hover{
 	color:#1A76D1;
 }
-/*-- Doctor Details --*/
-.doctor-details-left {
+/*-- Condominio Details --*/
+
+.cond-details .titulo{
+	text-align: center;
+	padding: 15px 5px;
+}
+
+.cond-details-left {
 	-webkit-box-shadow: 0px 0px 10px 0px #ddd;
 	box-shadow: 0px 0px 10px 0px #ddd;
 	border-radius: 10px;
@@ -1882,17 +1888,17 @@ body{
 	position: relative;
 	top: 1px;
 }
-.doctor-details-area .doctor-details-left .social{
+.doctor-details-area .cond-details-left .social{
 	margin-top:25px;
 }
-.doctor-details-area .doctor-details-left .social li{
+.doctor-details-area .cond-details-left .social li{
 	display:inline-block;
 	margin-right:10px;
 }
-.doctor-details-area .doctor-details-left .social li:last-child{
+.doctor-details-area .cond-details-left .social li:last-child{
 	margin-right:0px;
 }
-.doctor-details-area .doctor-details-left .social li a {
+.doctor-details-area .cond-details-left .social li a {
 	height: 34px;
 	width: 34px;
 	line-height: 34px;
@@ -1905,7 +1911,7 @@ body{
 	color: #757575;
 	font-size: 16px;
 }
-.doctor-details-area .doctor-details-left .social li a:hover{
+.doctor-details-area .cond-details-left .social li a:hover{
 	color:#fff;
 	background:#1A76D1;
 	border-color:transparent;
