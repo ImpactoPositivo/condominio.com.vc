@@ -380,6 +380,17 @@ Version:	1.1
 .header.sticky{
 	
 }
+
+.header-inner .container .inner .row .col-md-3 .logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-inner .container .inner .row .col-md-3 .logo img{
+	width: 70%;
+}
+
 .header.sticky .header-bottom{
 	position:absolute;
 	z-index:999;
@@ -1030,6 +1041,14 @@ Version:	1.1
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 
+.header-inner .container .inner .row .col-lg-3 .logo{
+	justify-content: center;
+	align-items: center;
+}
+
+.header-inner .container .inner .row .col-lg-3 .logo img{
+	width: 50%;
+}
 
 .section{
 	padding:50px 0px;
