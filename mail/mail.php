@@ -15,7 +15,7 @@ Message: ".$message."
 
 ";
 
-mail ("name@youremail.com" , "New Message", $email_message);
+mail ("falecom@ipositivo.com.br" , "Nova Mensagem", $email_message);
 header("location: ../mail-success.html");
 ?>
 

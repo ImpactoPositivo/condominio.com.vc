@@ -1,8 +1,8 @@
 /* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
+Template Name: 	Condominio.com.vc.
+Author Name: Francisco Ferro
+Website: http://ipositivo.com.br/
+Description: Condominio.com.vc HTML Template.
 Version:	1.1
 ========================================*/   
 /*=======================================
