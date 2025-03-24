@@ -836,7 +836,7 @@ body{
 	right: -72px;
 	top: 60px;
 	width: 118px;
-	border-bottom: 3px dotted #1a76d1;
+	border-bottom: 3px dotted #333;
 }
 .Feautes .single-features.last::before{
 	display:none;
@@ -1246,15 +1246,27 @@ body{
 	display:inline-block;
 	margin-right:5px;
 }
-.pf-details .body-text{}
+.pf-details .body-text{
+    font-family: 'Roboto', 'Open San';
+}
+
+
 .pf-details .body-text h3 {
 	font-size: 30px;
 	font-weight: 600;
 	color: #333;
 	margin-top: 40px;
 }
+
+.pf-details .body-text h5{
+	font-size: 25px;
+	font-weight: 600;
+	color: #deaa00;
+	padding-top: 15px;
+}
+
 .pf-details .body-text p{
-	margin-top:20px;
+	margin-top:10px;
 }
 .pf-details .body-text .share{
 	margin-top:40px;
@@ -1290,6 +1302,13 @@ body{
 	border-color:transparent;
 	background:#f0ac00;
 }
+
+.section .container .titulo h3{
+	text-align: center;
+	padding: 20px 5px;
+}
+
+
 /*==========================
 	End Portfolio CSS
 ============================*/
@@ -1847,6 +1866,7 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
 .cond-details img {
   width: 100%;
   border-radius:0;
@@ -1978,8 +1998,9 @@ body{
 }
 
 .cond-details .cond-details-itens {
- 
+	padding-bottom: 15px; 
 }
+
 .cond-details .cond-details-itens h3 {
   font-weight: 600;
   font-size: 24px;
@@ -4014,6 +4035,7 @@ body{
 ===========================*/
 .footer{
 	position:relative;
+	margin-top: 15px;
 }
 .footer .footer-top{
 	padding:30px 0px;

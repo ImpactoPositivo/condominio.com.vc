@@ -630,6 +630,17 @@ ul,ul li{
 	margin:0;
 }
 
+.row-details .cond-details .cond-details-right .cond-details-itens ul{
+	padding-left: 15px;
+}
+
+.row-details .cond-details .cond-details-right .cond-details-itens ul>li{
+	list-style: disc;
+	list-style-position: inside;
+	padding-left: 15px;
+	margin: 0px !important;
+}
+
 li > ul,
 li > ol {
 	margin-bottom: 0;
