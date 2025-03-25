@@ -59,6 +59,16 @@ Version:	1.1
 	color: #2C2D3F;
 	font-size: 13px;
 }
+.header-inner .container .inner .row .header-logo .logo{
+	float: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-inner .container .inner .row .col-lg-3 .logo img{
+	width: 50%;
+	float: right;
+}
 .header .header-inner .get-quote {
 	margin-top: 12px;
 	display: none;
@@ -380,16 +390,15 @@ Version:	1.1
 .header.sticky{
 	
 }
-
-.header-inner .container .inner .row .col-md-3 .logo{
+.header-inner .container .inner .row .header-logo .logo{
 	float: none;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.header-inner .container .inner .row .col-md-3 .logo img{
+.header-inner .container .inner .row .col-lg-3 .logo img{
 	width: 50%;
+	float: right;
 }
 
 .header.sticky .header-bottom{
@@ -407,18 +416,22 @@ Version:	1.1
 	padding-bottom: 20px;
 	background: #fff;
 }
+
 .slicknav_menu{
 	display:block;
 }
+
 .slicknav_menu {
+	width: 45vw;
 	display: block;
 	background: transparent;
 	padding: 0;
 }
+
 .slicknav_btn {
 	background: transparent;
 	padding: 0;
-	margin-top: -30px;
+	margin-top: 20vw;
 }
 .slicknav_menu .slicknav_icon-bar{
 	box-shadow:none;
@@ -428,10 +441,12 @@ Version:	1.1
 }
 .slicknav_menu {
 	display: block;
-	background: transparent;
+	min-width: 30vw;
+	background: #ffff;
 	padding: 0;
 }
 .slicknav_btn {
+	float: left;
 	background: transparent;
 	padding: 0;
 	margin-top: 28px;
@@ -471,7 +486,7 @@ Version:	1.1
 	background:transparent;
 }
 .slicknav_nav li .dropdown li a:hover{
-	color:#1A76D1;
+	color:#deaa00;
 }
 .slicknav_nav li .slicknav_item{
 	background:transparent;
@@ -483,7 +498,7 @@ Version:	1.1
 	font-weight:400;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #1A76D1;
+	background-color: #deaa00;
 	box-shadow: none;
 	text-shadow: none;
 }
@@ -491,7 +506,7 @@ Version:	1.1
 	color:#2C2D3F;
 }
 .slicknav_nav li:hover .slicknav_arrow{
-	color:#1A76D1;
+	color:#deaa00;
 }
 .slicknav_menu .slicknav_icon-bar {
 	display: block;
@@ -1042,7 +1057,7 @@ Version:	1.1
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 
-.header-inner .container .inner .row .col-lg-3 .logo{
+.header-inner .container .inner .row .header-logo .logo{
 	float: none;
 	justify-content: center;
 	align-items: center;
@@ -1050,6 +1065,7 @@ Version:	1.1
 
 .header-inner .container .inner .row .col-lg-3 .logo img{
 	width: 50%;
+	float: right;
 }
 
 .section{

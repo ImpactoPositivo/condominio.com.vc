@@ -286,6 +286,16 @@ body{
 	z-index:999;
 	width:100%;
 }
+
+.header .header-inner .header-logo{
+	display: flex;
+	align-items: center;
+}
+
+.header .header-inner .header-logo .mobile-nav{
+	position: absolute;
+}
+
 .get-quote{
 	margin-top:12px;
 }
