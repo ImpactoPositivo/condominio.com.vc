@@ -293,7 +293,7 @@ body{
 }
 
 .header .header-inner .header-logo .mobile-nav{
-	position: absolute;
+	position: relative;
 }
 
 .get-quote{
