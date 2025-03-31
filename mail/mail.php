@@ -1,22 +1,31 @@
-<?
-$name = $_POST{'name'};
-$email = $_POST{'email'};
-$phone = $_POST{'phone'};
-$subject = $_POST{'subject'};
-$message = $_POST['message'];
+<?php
 
-$email_message = "
+$name       = $_POST['name'];
+$email      = $_POST['email'];
+$phone      = $_POST['phone'];
+$date       = $_POST['date'];
+$time       = $_POST['time'];
+$message    = $_POST['message'];
+$from       = 'contato@condominiocomvoce.com.br';
 
-Name: ".$name."
-Email: ".$email."
-Phone: ".$phone."
-Subject: ".$subject."
-Message: ".$message."
 
-";
+echo $name.'</br>';
+echo $email.'</br>';
+echo $phone.'</br>';
+echo $date.'</br>';
+echo $time.'</br>';
+echo $message.'</br>';
 
-mail ("falecom@ipositivo.com.br" , "Nova Mensagem", $email_message);
-header("location: ../mail-success.html");
+
+$Headers      = "MIME-Version: 1.1\n";
+$Headers     .= "Content-type: text/html; charset=utf-8\n";
+$Headers     .= "From: condominio.com.vc <$From>\n";
+$Headers     .= "Return-Path: $From\n";
+$Headers     .= "Reply-to: $email\n";
+
+mail($email, $Assunto, $mensagem, $Headers, $From);
+header('Location:obrigado.html');
+
 ?>
 
 
