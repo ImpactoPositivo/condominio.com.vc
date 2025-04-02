@@ -1256,8 +1256,20 @@ body{
 	display:inline-block;
 	margin-right:5px;
 }
+
 .pf-details .body-text{
     font-family: 'Roboto', 'Open San';
+}
+
+.pf-details .body-text .itens{
+	margin-top: 15px;
+}
+
+.pf-details .body-text .itens .item{
+	margin-left: 15px;
+	padding-bottom: 5px;
+	list-style-position: inside;
+	list-style: disc !important;
 }
 
 
@@ -2020,14 +2032,14 @@ body{
 .cond-details .cond-details-itens p {
   margin-bottom: 0;
 }
-.cond-details .cond-details-itens ul {
-  margin: 0;
-  padding: 0;
+.cond-details .cond-details-itens .itens {
+
 }
-.cond-details .cond-details-itens ul li {
-  list-style-type: none;
-  display: block;
-  margin-bottom: 10px;
+.cond-details .cond-details-itens .itens .item {
+	padding-bottom: 5px;
+	list-style-position: inside;
+	list-style: disc;
+	margin-left: 15px;
 }
 .cond-details .cond-details-itens ul li:last-child {
   margin-bottom: 0;
