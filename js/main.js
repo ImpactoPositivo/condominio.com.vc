@@ -310,7 +310,7 @@ Version:	1.1
 				lng: 90.884780,
 				title: 'Marker with InfoWindow',
 				infoWindow: {
-				content: '<p>welcome to Medipro</p>'
+				content: '<p>welcome to Condominio com vc</p>'
 			}
 		
 		});
