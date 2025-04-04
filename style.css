@@ -248,7 +248,7 @@ body{
 	margin-right:15px;
 }
 .header .top-link li:last-child{
-	margin-right:0px;
+	margin-right: 0px;
 }
 .header .top-link li a{
 	color:#2C2D3F;
@@ -259,6 +259,28 @@ body{
 	color:#f0ac00;
 	font-weight: bold;
 }
+
+.search{
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+}
+
+.search label i:hover{
+	color: #deaa00;
+}
+
+#search-input{
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+}
+
+#search-input:hover{
+	background-color: #f8eecf;
+}
+
 .header .top-contact{
 	float:right;
 }
