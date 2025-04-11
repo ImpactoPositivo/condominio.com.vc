@@ -88,6 +88,7 @@ body{
 	font-size: 15px;
 }
 .pro-features .button{}
+
 .pro-features .button .btn {
 	width: 100%;
 	text-align: center;
@@ -240,16 +241,22 @@ body{
 .header .topbar{
 	padding:15px 0;
 }
+
 .header .top-link{
 	float:left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .header .top-link li{
 	display:inline-block;
 	margin-right:15px;
 }
-.header .top-link li:last-child{
-	margin-right: 0px;
+
+.header .top-link label{
+	margin: 0px !important;
 }
+
 .header .top-link li a{
 	color:#2C2D3F;
 	font-size:14px;
@@ -260,14 +267,15 @@ body{
 	font-weight: bold;
 }
 
-.search{
+.header .row .search{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	align-content: center;
 	background-color: transparent;
 }
 
-.search:hover{
+.header .row .search:hover{
 	color: #deaa00;
 	background-color: #f8eecf;
 	line-height: 1rem;
@@ -276,14 +284,15 @@ body{
 }
 
 .search i{
-	padding-left: 10px;
+	padding: 0px 10px;
+	margin: auto 0px;
 }
 
 #search-input{
-	padding-right: 10px;
 	border: none;
 	background-color: transparent;
 	outline: none;
+	padding: 0px !important;
 }
 
 .header .top-contact{

@@ -47,12 +47,14 @@ Version:	1.1
 	#scrollUp {
 		bottom: 55px;
 	}
+
 	.header .top-link li a {
 		font-size: 13px;
 	}
 	.header .top-contact li a{
 		font-size:13px;
 	}
+
 	.header .top-contact li {
 		display: inline-block;
 		margin-right: 25px;
@@ -376,12 +378,7 @@ Version:	1.1
 	.footer .footer-top {
 		padding: 65px 0px;
 	}
-	
-	
-	
-	
-	
-	
+		
 	
 	
 	}
@@ -1036,11 +1033,11 @@ Version:	1.1
 		margin: 15px 0;
 	}
 	.footer .single-footer h2 {
-		padding-bottom: 20px;
-		margin-bottom: 20px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
 	}
 	.footer .footer-top {
-		padding: 50px 0px 60px 0;
+		padding: 20px 0px 20px 0;
 	}
 	.footer .single-footer.f-link ul {
 		margin-bottom: 12px;
@@ -1056,8 +1053,25 @@ Version:	1.1
 	}
 	/* Mobile Screen */
 	@media only screen and (max-width: 450px) {
+		
+		.header .top-link .search{
+			width: 10vw;
+		}
+		
+		.header .top-link #search-input{
+			display: none;
+		}
+
+		.header .top-nav {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.header .row #search-input:hover{
+			display: flex;
+		}
 	
-	.header-inner .container .inner .row .header-logo .logo{
+		.header-inner .container .inner .row .header-logo .logo{
 		float: none;
 		justify-content: center;
 		align-items: center;
@@ -1334,7 +1348,7 @@ Version:	1.1
 		padding-bottom: 20px;
 	}
 	.footer .footer-top {
-		padding: 65px 0px;
+		padding: 15px 0px;
 	}
 	
 	
